@@ -1,0 +1,140 @@
+body {
+  background-color:#fff7fa;
+}
+
+#nav-top {
+  background: #EFD4CE !important;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.collapse, .navbar .navbar-brand{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.section {
+  margin: 0 auto 40px auto;
+  padding: 20px 30px;
+  background-color: #fff7fa;
+}
+
+
+.jumbotron {
+  /*background-image: url("https://images.unsplash.com/photo-1503776768674-0e612f631345?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c15f2fec8cabd7a1a4dd1c7caf24a75c&auto=format&fit=crop&w=750&q=80");*/
+  /*paint on hands*//*background-image: url("https://images.unsplash.com/photo-1501366062246-723b4d3e4eb6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8b5f5998cb98c2b00433c988006f22d&auto=format&fit=crop&w=772&q=80");*/
+  background-image: url("clouds.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  padding: 140px 80px;
+  text-align: center;
+  height: 100vh;
+}
+
+@media (max-width: 750px) {
+  .jumbotron {
+    height: 800px;
+  }
+}
+
+@media (max-width: 600px) {
+  .jumbotron {
+    height: 1000px;
+  }
+}
+
+blockquote {
+}
+
+.jumbotron h1 {
+  /*#624F79*/ /* dark purple #424259 */
+  color: #424259;
+  /*font-family: 'Cute Font', cursive;*/
+  font-family: 'PT Serif', serif;
+  /*font-family: 'Roboto Slab', serif;*/
+  font-size: 80px;
+}
+
+.lead{
+  margin: 50px auto;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 15px auto;
+  font-family:'Playfair Display', serif;
+  text-align: center;
+}
+
+h3 {
+  margin: 12px auto 20px auto;
+  font-family: 'Lora', serif;
+  /*font-family:'Titillium Web', sans-serif; */
+}
+
+p {
+  font-size: 25px;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+#insta {
+  width: 400px;
+}
+
+.hr-container1 {
+  width: 20rem;
+}
+
+.hr-container2 {
+  width: 30rem;
+}
+
+hr.top { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+
+hr.bottom {
+  overflow: visible; /* For IE */
+   height: 30px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px 0 0 0;
+   border-radius: 20px;
+   margin-top: 0px;
+}
+
+#bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background:#8F7FA7;
+  color: white;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.bottom {
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+.icon{
+  font-size: 30px;
+  margin: 5px auto;
+  color: white;
+}
+
+p > a {
+  color: white;
+}
