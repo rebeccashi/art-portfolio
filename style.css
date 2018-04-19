@@ -17,7 +17,6 @@ body {
 .section {
   margin: 0 auto 40px auto;
   padding: 20px 30px;
-  background-color: #fff7fa;
 }
 
 
@@ -29,6 +28,7 @@ body {
   opacity: 0.8;
   padding: 140px 80px;
   text-align: center;
+  margin-bottom: 0;
 }
 
 /* Not very mobile friendly
@@ -45,9 +45,6 @@ body {
 }
 */
 
-blockquote {
-}
-
 .jumbotron h1 {
   /*#624F79*/ /* dark purple #424259 */
   color: #424259;
@@ -60,6 +57,12 @@ blockquote {
 .lead{
   margin: 50px auto;
   font-size: 40px;
+}
+
+#intro {
+  background: #DCD7E3 !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h2 {
