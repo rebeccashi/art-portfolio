@@ -29,9 +29,9 @@ body {
   opacity: 0.8;
   padding: 140px 80px;
   text-align: center;
-  height: 100vh;
 }
 
+/* Not very mobile friendly
 @media (max-width: 750px) {
   .jumbotron {
     height: 800px;
@@ -43,6 +43,7 @@ body {
     height: 1000px;
   }
 }
+*/
 
 blockquote {
 }
