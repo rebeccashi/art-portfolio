@@ -1,5 +1,6 @@
 body {
   background-color:#fff7fa;
+  font-size: 20px;
 }
 
 #nav-top {
@@ -51,12 +52,14 @@ body {
   /*font-family: 'Cute Font', cursive;*/
   font-family: 'PT Serif', serif;
   /*font-family: 'Roboto Slab', serif;*/
-  font-size: 80px;
+  /* font-size: 80px; */
+  font-size: 4em;
 }
 
 .lead{
   margin: 50px auto;
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 2em;
 }
 
 #intro {
@@ -91,7 +94,8 @@ h3 {
 }
 
 p {
-  font-size: 25px;
+  /* font-size: 25px; */
+  font-size: 0.9em;
   margin-top: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -165,12 +169,14 @@ hr.style-eight:after {
 }
 
 .bottom {
-  font-size: 20px;
+  /*font-size: 20px; */
+  font-size: 1em;
   margin: 10px auto;
 }
 
 .icon{
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.5em;
   margin: 5px auto;
   color: white;
 }
