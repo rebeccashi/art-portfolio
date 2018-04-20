@@ -26,7 +26,7 @@ body {
 }
 
 
-#welcome {
+.jumbotron {
   /*background-image: url("https://images.unsplash.com/photo-1503776768674-0e612f631345?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c15f2fec8cabd7a1a4dd1c7caf24a75c&auto=format&fit=crop&w=750&q=80");*/
   /*paint on hands*//*background-image: url("https://images.unsplash.com/photo-1501366062246-723b4d3e4eb6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8b5f5998cb98c2b00433c988006f22d&auto=format&fit=crop&w=772&q=80");*/
   background-image: url("clouds.jpg");
@@ -51,7 +51,7 @@ body {
 }
 */
 
-#welcome h1 {
+.jumbotron h1 {
   /*#624F79*/ /* dark purple #424259 */
   color: #424259;
   /*font-family: 'Cute Font', cursive;*/
@@ -61,7 +61,7 @@ body {
   font-size: 4em;
 }
 
-#welcome p {
+.jumbotron p {
   margin: 50px auto;
   /* font-size: 40px; */
   font-size: 2em;
