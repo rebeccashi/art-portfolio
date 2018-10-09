@@ -1,10 +1,10 @@
 body {
-  background-color:#ffedf0;
+  background-color:#ffedf3; /*#ffedf0*/
   font-size: 20px;
 }
 
 #nav-top {
-  background: #e0d5e5 !important;
+  background: #EFD4CE !important;
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -63,7 +63,7 @@ body {
 }
 
 #intro {
-  background: #DCD7E3 !important;
+  background: #e0d5e5 !important;
   padding-top: 10px;
   padding-bottom: 10px;
 }
