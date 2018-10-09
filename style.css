@@ -78,6 +78,10 @@ h2 {
   padding-right: 30px;
 }
 
+#intro-paragraph {
+  padding-top: 20px;
+}
+
 .col-lg-6 > h3 {
   padding-left: 30px;
 }
