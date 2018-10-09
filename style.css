@@ -1,5 +1,5 @@
 body {
-  background-color:#fff7fa;
+  background-color:#ffedf0; /*#fff7fa*/
   font-size: 20px;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 #intro {
-  background: #DCD7E3 !important;
+  background: #e0d5e5 !important; /*DCD7E3 */
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -151,7 +151,7 @@ hr.style-eight:after {
     top: -0.7em;
     font-size: 1.5em;
     padding: 0 0.25em;
-    background: #fff7fa;
+    background: #ffedf0;
     margin-bottom: 35px;
 }
 
